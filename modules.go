@@ -18,6 +18,8 @@ func handleModule(module string, segment *Segment, args []string) {
 		dirSegment(segment)
 	case "git":
 		gitSegment(segment)
+	case "gitnew":
+		gitnewSegment(segment)
 	case "cmdtime":
 		cmdTimeSegment(segment)
 	case "time":
